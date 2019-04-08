@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import ReactHtmlParser from 'react-html-parser';
-import DropDown from 'dropdown';
+import DropDown from './dropdown';
 
 class Boxes extends React.Component{
 	constructor(){
