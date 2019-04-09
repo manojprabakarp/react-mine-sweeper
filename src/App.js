@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Boxes from './boxes';
+import Boxes from './components/boxes';
 
 class App extends Component {
   render() {
@@ -8,7 +8,6 @@ class App extends Component {
 		  <div className="container">
 				<div className="d-flex justify-content-between">
 					<Boxes />
-					
 				</div>
 			
 			</div>
