@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux'
-let openBox = (state) => {
+let openBox = (state = []) => {
 	switch(state){
 		case "chageType":
+		return [];
+		default:
 		return [];
 	}
 }

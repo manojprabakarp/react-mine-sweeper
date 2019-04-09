@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux'
-let changeType = (state) => {
+const changeType = (state = []) => {
 	switch(state){
 		case "chageType":
-		return [];
+			return state;
+		default:
+			return state
 	}
 }
 export default changeType;
